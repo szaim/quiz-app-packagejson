@@ -1,41 +1,41 @@
 var QUESTIONS = [
     {
-        text: '<:48:x<:65:=<:6C:$=$=$$~<:03:+$~<:ffffffffffffffbd:+$<:ffffffffffffffb1:+$<:57:~$~<:18:x+$~<:03:+$~<:06:x-$x<:0e:x-$=x<:43:x-$',
+        text: 'What sound does a cow make?',
         answers: [
-            '0815',
-            '2B',
-            'BAM128',
-            'Barely'
+            'Moo',
+            'Woof',
+            'Quack',
+            'Cheep'
         ],
         correct: 0
     },
     {
-        text: '+0+0+0+0+0+0+0+2)+0+0+9)+7))+3)-0-0-0-0-0-0-0-9)+0+0+0+0+0+0+0+0+7)-8)+3)-6)-8)-7-0-0-0-0-0-0)',
+        text: 'What sound does a chicken make?',
         answers: [
-            '0815',
-            '2B',
-            'BAM128',
-            'Barely'
+            'Meow',
+            'Cluck',
+            'Baa',
+            'Bleat'
         ],
         correct: 1
     },
     {
-        text: '*6*3p*4*3*2*0p*2*1*0pp>0*1*0p*5*4*0p*5*4*2*1*0p*4*3p*1*0p/+0p+0*6*5*2p+0*5*0p',
+        text: 'What sound does a pig make?',
         answers: [
-            '0815',
-            '2B',
-            'BAM128',
-            'Barely'
+            'Woof',
+            'Howl',
+            'Oink',
+            'Moo'
         ],
         correct: 2
     },
     {
-        text: ']xhhhhooooooooohhhhhhxooooooooxooooooxjjjxhoooohhhxhohhhhhhhxhhhhjjjhhhxhhhhooooooooohhhhhhxjjjxxjjjjjjjxjhhhhxjhhhhhhhhjjjhh~',
+        text: 'What sound does a duck make?',
         answers: [
-            '0815',
-            '2B',
-            'BAM128',
-            'Barely'
+            'Oink',
+            'Meow',
+            'Honk',
+            'Quack'
         ],
         correct: 3
     }
@@ -107,4 +107,3 @@ $(document).ready(function() {
     questionsTotalElement.text(QUESTIONS.length);
     setQuestion(0);
 });
-

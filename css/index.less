@@ -1,0 +1,53 @@
+@skyblue: #c2e4f2;
+@barnred: #ab514a;
+
+body {
+  background-color: @skyblue;
+  margin-top:50px;
+}
+
+.questions-page {
+  background-color: @barnred;
+  border: 5px solid white;
+  border-radius: 20px;
+  width:50%;
+  color:white;
+  font-family: sans-serif;
+  padding:10px;
+  margin-left:auto;
+  margin-right:auto;
+}
+
+.question {
+  font-size:1.25em
+}
+
+.answers {
+  list-style:none;
+
+  & button {
+    background-color:white;
+    padding:0.5em;
+    font-size:1.25em;
+    border-radius: 0.5em;
+    border: 2px solid indianred;
+  }
+
+  & li {
+    padding-bottom:5px;
+  }
+}
+
+.results-page {
+  font-size:1.50em;
+  .questions-page;
+  text-align:center;
+  & button {
+    margin-top:1em;
+    background-color:white;
+    padding:0.5em;
+    font-size:1.25em;
+    border-radius: 0.5em;
+    border: 3px solid indianred;
+  }
+}
